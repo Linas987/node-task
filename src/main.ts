@@ -8,7 +8,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Node task')
     .setDescription(
-      'The Node task API apart from the home (/) route it has other get requests, when using any of these get requests, the data if it doesnt exist in the database will be pulled from https://kayaposoft.com/enrico/ api and put into the postgresSQL database.',
+      `The Node task API apart from the home (/) route it has other get requests, when using any of these get requests, the data if it doesnt exist in the database will be pulled from <a href="url">https://kayaposoft.com/enrico/</a> api and put into the postgresSQL database. code is hosted on Github <a href="url">https://github.com/Linas987/node-task</a>`,
     )
     .setVersion('1.0')
     .build();
